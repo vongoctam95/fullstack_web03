@@ -1,0 +1,25 @@
+footer
+	background: $blacks
+	color: $whites
+	ul.list-group
+		text-align: center
+		li.list-group-item
+			border: 0
+			background: none
+	+media-breakpoint-up(sm)
+		ul.list-group
+			flex-wrap: wrap
+			flex-direction: initial
+			li 
+				flex: 0 0 50%
+				max-width: 50%
+	+media-breakpoint-up(md)
+		ul.list-group
+			justify-content: center
+			li
+				flex: initial
+				max-width: initial
+
+
+			
+
